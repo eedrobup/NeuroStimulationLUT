@@ -11,17 +11,17 @@ Common Issues:
 
 
 ## LUT Model 
-0. Install files in the requirements.txt folder if not already installed. 
+1. Install files in the requirements.txt folder if not already installed. 
 
 ## Run our test code 
-Before execuring the code make sure that the directory contains Project_BO.py and Project_Thompson.py files in addition to the models folder containing the LUT model. 
+Before execuring the code make sure that the directory contains Project_BO.py and Project_Thompson.py files in addition to the models folder containing the LUT model.  
 
-1a. run Baysian Optimization using the command: *python3 Project_BO.py*
-1b. run Thompson sampling using the command: *python3 Project_Thompson.py* 
+1. run Baysian Optimization using the command: *python3 Project_BO.py*  
+1. run Thompson sampling using the command: *python3 Project_Thompson.py*   
 
-For teseting any other omega_s values against LUT model use the command:
-```python simulate_lut.py --omega_s <value> [--seed <int>] [--dT <float>]```
-Parameters:
+For teseting any other omega_s values against LUT model use the command:  
+```python simulate_lut.py --omega_s <value> [--seed <int>] [--dT <float>]```  
+Parameters:  
 - --omega_s (required): Sphincter control parameter (e.g., 0.0625).
 - --seed (optional): Random seed for reproducibility (default: 42).
 - --dT (optional): Time step in seconds (default: 0.1).
