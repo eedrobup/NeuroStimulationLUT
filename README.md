@@ -19,7 +19,7 @@ Before execuring the code make sure that the directory contains Project_BO.py an
 1. run Baysian Optimization using the command: *python3 Project_BO.py*  
 1. run Thompson sampling using the command: *python3 Project_Thompson.py*   
 
-For teseting any other omega_s values against LUT model use the command:  
+For testing any other omega_s values against LUT model use the command:  
 ```python simulate_lut.py --omega_s <value> [--seed <int>] [--dT <float>]```  
 Parameters:  
 - --omega_s (required): Sphincter control parameter (e.g., 0.0625).
